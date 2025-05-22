@@ -2,7 +2,21 @@
 
 ## Demo Video
 [![RAG Workflow Demo](https://img.youtube.com/vi/JmEAYjpwLP8/0.jpg)](https://youtu.be/JmEAYjpwLP8)
+
 Skip to 4:30 for frontend demo
+
+## Quick Start
+```bash
+# Create and activate virtual environment
+python -m venv .venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the application
+streamlit run app.py
+```
 
 This project implements a RAG (Retrieval-Augmented Generation) workflow with additional capabilities for querying an IPL (Indian Premier League) database and performing web searches when needed.
 
