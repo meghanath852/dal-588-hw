@@ -161,8 +161,3 @@ The system provides transparency about information sources:
 - **V. Meghanath Reddy** - *21119054*
 - **Arpan Kumar** - *21322009*
 - **S. S. H . Quadri** - *21119049*
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
