@@ -114,7 +114,7 @@ def is_database_question(question):
 def generate_sql_query(question):
     """Use OpenAI to generate SQL query from natural language question"""
     prompt = ChatPromptTemplate.from_messages([
-        ("system", f"""You are a SQL expert. Generate a PostgreSQL query to answer the question using the IPL database.
+        ("system", f"""You are a SQL expert. Generate a PostgreSQL query to answer the question using the IPL (Indian Premier League, a cricket competition in India) database.
         Here is the database schema:
         {DB_SCHEMA}
         

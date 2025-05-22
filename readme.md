@@ -1,5 +1,8 @@
 # RAG Workflow with Database Integration
 
+## Demo Video
+[![RAG Workflow Demo](https://img.youtube.com/vi/JmEAYjpwLP8/0.jpg)](https://youtu.be/JmEAYjpwLP8)
+
 This project implements a RAG (Retrieval-Augmented Generation) workflow with additional capabilities for querying an IPL (Indian Premier League) database and performing web searches when needed.
 
 ## Features

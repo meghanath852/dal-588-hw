@@ -175,6 +175,8 @@ def database_query_node(state):
             
             # Generate SQL query
             sql_query = generate_sql_query(question)
+
+            print(f"---GENERATED SQL QUERY---\n{sql_query}")
             
             if sql_query:
                 print(f"---EXECUTING SQL QUERY---\n{sql_query}")
