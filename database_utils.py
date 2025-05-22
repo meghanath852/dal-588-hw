@@ -9,7 +9,7 @@ import os
 from dotenv import load_dotenv
 
 # Load environment variables
-load_dotenv()
+load_dotenv(override=True)
 
 # Database connection parameters
 DB_NAME = os.getenv("DB_NAME", "ipl_data")
@@ -122,7 +122,8 @@ def generate_sql_query(question):
         1. Only use columns that exist in the schema
         2. Return the query only, no explanations or triple backticks or language name
         3. Format the query for readability
-        4. If the question is not relevant to the database, return 'None'"""),
+        4. The player name should be in the format of 'P Name'. For example, 'V Kohli' instead of 'Virat Kohli' and 'MS Dhoni' instead of 'Mahendra Singh Dhoni'.
+        5. If the question is not relevant to the database, return 'None'"""),
         ("human", question)
     ])
     
